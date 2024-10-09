@@ -1,0 +1,184 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> FOR MAIN DESIGN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #7cf9e5; */
+    background-color: #93785B;
+    color: ghostwhite;
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(229, 14, 14);
+    text-align: center;
+}
+
+.accordion{
+    max-width: 700px;
+    margin: auto;
+}
+
+.accordion_item {
+    border: 1px solid rgb(255, 0, 85);
+    padding: 20px;
+}
+
+.accordion_title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.accordion_title h3 {
+    flex: 1;
+    font-size: 25px;
+}
+
+.accordion_title i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.accordion_content{
+    display: none;
+}
+
+.accordion_title.active + .accordion_content {
+    display: block;
+    padding-top: 20px;
+}
+
+.accordion_content p{
+    font-size: 20px;
+    color: rgb(117, 49, 0);
+}
+
+.accordion_title.active i {
+    transform: rotate(180deg);
+}
+
+.accordion_title.active {
+    border-bottom: 2px solid red;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.accordion_title i {
+    font-size: 30px;
+    transition: transform 0.4s ease-out; /* For smooth icon rotation */
+  }
+  
+  .accordion_content {
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden; /* Hide content */
+    transition: max-height 0.2s ease-out; /* Smooth transition for max-height */
+    /* transition: max-height 0.4s ease-in-out; */
+    padding: 0 20px; /* Add some padding */
+  }
+
+  
+  .accordion_item.active + .accordion_content {
+    max-height: 500px; /* Adjust based on expected content height */
+    padding-top: 20px; /* Padding when expanded */
+  }
+  
+
+/* >>>>>>>>>>>>>>>>>>>  FOR Design in Accordion>>>>>>>>>>>>>>>>>>> */
+
+.container {
+    width: 100%;
+    max-width: 50rem;
+    padding: 2rem;
+    margin: 1rem auto;
+    background: hsl(0, 0%, 14%);
+    border-radius: 1rem;
+    border: 1px solid #222;
+    box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.55);
+  }
+  
+  .accordion_item{
+    background-color: #333;
+    color: #eee;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #222;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.4s ease-out;
+    box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .accordion_item:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .accordion_item:nth-last-child(1) {
+    border-radius: 0 0 1rem 1rem;
+  }
+  
+ 
+  
+  .accordion_item:hover {
+    background-color: #426ef0;
+  }
+  
+
+
+
+ 
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+  /* <!-- >>>>>>>>>>>>>>>>> FOR FOOTER >>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+  .footer{
+    /* margin-top: 50px; */
+    text-align: center;
+  }
+  
+  .fab{
+    padding:10px;
+    color:white;
+    border-radius: 10px;
+    margin:5px;
+  }
+
+  
+  #linkedin{
+  color:#6898d4;
+  }
+  
+  #github{
+    color:#000000;
+  }
+  
+  
+  #twitter{
+    color:#44ccf6;
+  }
+
+  
