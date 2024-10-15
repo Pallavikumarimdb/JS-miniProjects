@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.random-color-generator-container{
+    display: flex;
+    gap: 10px;
+}
+
+.hex-color-container, .rgb-color-container{
+    min-height: 100vh;
+    flex: 1;
+}
+
+.hex-color-container {
+    align-items: center;
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 30px;
+}
+
+.align{
+    width: 310px;
+    height: 350px;
+    background-color: #415252;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+
+.class-1{
+    display: flex;
+    gap: 20px;
+}
+
+.hex-btn {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c56f06;
+    display: block;
+    margin-top: 50px;
+}
+
+
+.hex-copy-color img{
+    width: 30px;
+}
+
+.hex-copy-color{
+    background-color: transparent;
+    display: flex;
+}
+
+
+.rgb-color-container{
+    gap: 20px;
+}
+
+.class-2{
+    align-items: center;
+    flex-direction: column; 
+}
+.align-1{
+    /* padding-top: 40%;
+    padding-left: 30%; */
+    width: 310px;
+    height: 350px;
+    background-color: #415252;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    margin-top: 25%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+.align-2{
+    display: flex;
+}
+.hex-color-value , .rgb-color-value {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rgb-color-container {
+    background-color: rgb(0, 255, 247);
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.rgb-copy-color img{
+    width: 30px;
+}
+
+.rgb-copy-color{
+    background-color: transparent;
+    margin-left: 20px;;
+    display: flex;
+}
+
+.rgb-btn {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c56f06;
+    color: #fff;
+}
+
+.input-label{
+    margin: 20px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>> For Animation >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.hex-btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #c56f06;
+    border-radius: 20px;
+    transition: all ease 0.10s;
+  }
+.hex-btn:hover {
+    background-color: #e0ffff;
+    box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+
+  .rgb-btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #c56f06;
+    border-radius: 20px;
+    transition: all ease 0.10s;
+    margin-top: 20px;;
+  }
+.rgb-btn:hover {
+    background-color: #e0ffff;
+    box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+
