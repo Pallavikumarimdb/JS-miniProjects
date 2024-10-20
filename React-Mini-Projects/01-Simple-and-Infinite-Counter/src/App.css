@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.simple-counter{
+  margin: 100px;
+  
+}
+
+.infinite-counter{
+  margin: 100px;
+}
+
+.main-div{
+  display: flex;
+}
+
+.infinite-counter {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-clip: padding-box;
+  border-radius: 45px;
+  padding: 5px;
+  box-shadow: 16px 8px 16px -2px #ede153;
+  /* rgba(0, 250, 141, 0.4); */
+  transition: transform 250ms;
+
+}
+
+
+.infinite-counter:hover{
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.simple-counter {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-clip: padding-box;
+  border-radius: 45px;
+  padding: px;
+  box-shadow: 16px 8px 16px -2px  #ede153;
+  transition: transform 250ms;
+}
+
+.simple-counter:hover{
+  opacity: 1;
+  transform: translateY(-10px);
+}
