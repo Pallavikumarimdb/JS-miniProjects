@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.button-div2{
+  margin: 10px;
+  margin-left: 30%;
+  width: 500px;
+  background-color: rgb(21, 5, 5);
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px rgb(128, 93, 93);
+  border: 1px solid transparent;
+}
+.button-div2:hover {
+  border-color: #646cff;
+}
+.button-div3{
+  display: inline-block;
+
+}
