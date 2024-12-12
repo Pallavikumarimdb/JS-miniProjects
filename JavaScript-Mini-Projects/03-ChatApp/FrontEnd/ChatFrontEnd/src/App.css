@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-down{
+    border-radius: 10px;
+}
+.inp-chat{
+    border-radius: 10px;
+}
+
+.chat-sec{
+    box-shadow: 0 4px 8px 0 rgba(233, 204, 204, 0.2);
+    transition: 0.3s;
+    margin-left: 30%;
+    width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: grey;
+}
